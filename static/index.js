@@ -441,11 +441,11 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '试着好好练一下？';
-        if (cps <= 8) return 'TCL';
-        if (cps <= 10)  return 'TQL';
-        if (cps <= 15) return '您';
-        return '人？';
+        if (cps <= 5) return '不哭不哭，卓逸抱抱';
+        if (cps <= 8) return '加油！还差一点就可以得到小卓逸的奖励了';
+        if (cps <= 10)  return '奖励你一个卓逸的啾啾';
+        if (cps <= 15) return '好厉害！小卓逸想抱抱你';
+        return '好棒！奖励你小卓逸的亲亲';
     }
 
     function toStr(obj) {
